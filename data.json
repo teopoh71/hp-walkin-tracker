@@ -1,11 +1,11 @@
 {
   "version": 3,
   "reportMode": "semi-automatic",
-  "generatedAt": "2026-08-20T09:09:54Z",
+  "generatedAt": "2026-08-20T12:01:16Z",
   "requestedFrom": "2026-03-01",
   "firstAvailable": "2026-05-02",
   "lastAvailable": "2026-08-20",
-  "coverageNote": "进店数与品类意向由系统自动统计；沙发与床垫A/B/C/D由导购填写。每次只扫描今天及前2天，共3天；同一导购同一天只保留最新一条。",
+  "coverageNote": "进店数与品类意向由系统自动统计；沙发与床垫A/B/C/D由导购填写。每次只扫描今天及前2天，共3天；同一导购同一天只有一条，新事件合并进去，不重复人天；未提交不补 0。",
   "staff": [
     "晴晴",
     "楚楚",
@@ -3211,6 +3211,7 @@
       "mattressStareepD": 0,
       "messageTime": "2026-08-19 16:45:03",
       "eventIds": [
+        "1787129103-qingqing-zolano",
         "5698497013621687"
       ],
       "confirmedEventIds": [],
@@ -3259,7 +3260,9 @@
       "mattressStareepD": 0,
       "messageTime": "2026-08-20 16:47:44",
       "eventIds": [
+        "1787208573-chuchu-stareep",
         "1787208573-chuchu-stareep-1",
+        "1787215664-chuchu-sample",
         "1787215664-chuchu-sample-c"
       ],
       "confirmedEventIds": [],
@@ -3270,94 +3273,36 @@
   "scanWindowDays": 3,
   "dedupeKey": "date+staff",
   "scanStatus": {
-    "windowStart": "2026-08-15",
+    "windowStart": "2026-08-18",
     "windowEnd": "2026-08-20",
-    "checkedAt": "2026-08-20T09:09:54Z",
+    "checkedAt": "2026-08-20T12:01:16Z",
     "dedupeKey": "date+staff",
-    "results": [
-      {
-        "date": "2026-08-18",
-        "submitted": [],
-        "missing": [
-          "婉玲",
-          "张先生",
-          "晴晴",
-          "楚楚"
-        ],
-        "incomplete": [],
-        "detected": [],
-        "submitted_count": 0,
-        "total_staff": 4,
-        "complete": false
-      },
-      {
-        "date": "2026-08-19",
-        "submitted": [],
-        "missing": [
-          "婉玲",
-          "张先生",
-          "晴晴",
-          "楚楚"
-        ],
-        "incomplete": [],
-        "detected": [],
-        "submitted_count": 0,
-        "total_staff": 4,
-        "complete": false
-      },
-      {
-        "date": "2026-08-20",
-        "submitted": [],
-        "missing": [
-          "婉玲",
-          "张先生",
-          "晴晴",
-          "楚楚"
-        ],
-        "incomplete": [],
-        "detected": [],
-        "submitted_count": 0,
-        "total_staff": 4,
-        "complete": false
-      }
-    ],
     "added": [],
     "updated": [],
     "parseErrors": [],
-    "instantEventsFound": 1,
+    "instantEventsFound": 3,
     "instantEventsApplied": [],
     "instantEventsSkipped": [
-      "5698497013621687"
+      "1787129103-qingqing-zolano",
+      "1787208573-chuchu-stareep",
+      "1787215664-chuchu-sample"
     ],
-    "instantEventsCancelled": [],
-    "instantEventsCorrected": [],
     "aiReview": {
       "enabled": true,
       "passed": true,
-      "messageCount": 2,
-      "businessEventCount": 2,
-      "overallConfidence": 0.99,
+      "messageCount": 3,
+      "businessEventCount": 3,
+      "overallConfidence": 0.98,
       "warnings": [],
       "secondPass": {
         "enabled": true,
         "passed": true,
-        "confidence": 1.0,
-        "messagesChecked": 2,
+        "confidence": 0.98,
+        "messagesChecked": 3,
         "issues": [],
         "warnings": [],
-        "summary": "8/19 晴晴 zolano进一组；8/20 楚楚 希瑞进一组。两遍一致，无意向无ABCD。"
+        "summary": "Zolano进1组，两遍一致；希瑞进1组，两遍一致；清样间进1组，两遍一致"
       }
-    },
-    "audit": {
-      "passed": true,
-      "recordsChecked": 2,
-      "checkedRecords": [
-        "2026-08-19+晴晴",
-        "2026-08-20+楚楚"
-      ],
-      "cancellationCommandsRecognized": 0,
-      "eventsRemovedByCancellation": [],
-      "mismatches": []
     }
   },
   "staffSince": {
