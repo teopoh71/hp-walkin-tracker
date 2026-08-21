@@ -1,10 +1,10 @@
 {
   "version": 3,
   "reportMode": "semi-automatic",
-  "generatedAt": "2026-08-20T12:01:16Z",
+  "generatedAt": "2026-08-21T11:06:18Z",
   "requestedFrom": "2026-03-01",
   "firstAvailable": "2026-05-02",
-  "lastAvailable": "2026-08-20",
+  "lastAvailable": "2026-08-21",
   "coverageNote": "进店数与品类意向由系统自动统计；沙发与床垫A/B/C/D由导购填写。每次只扫描今天及前2天，共3天；同一导购同一天只有一条，新事件合并进去，不重复人天；未提交不补 0。",
   "staff": [
     "晴晴",
@@ -3268,14 +3268,62 @@
       "confirmedEventIds": [],
       "eventFingerprints": {},
       "eventDualCategoryIntent": 0
+    },
+    {
+      "date": "2026-08-21",
+      "staff": "晴晴",
+      "store": "世博园店",
+      "receivedZolano": 1,
+      "receivedNikator": 0,
+      "receivedStareep": 0,
+      "receivedSampleRoom": 0,
+      "intentZolano": 0,
+      "intentNikator": 0,
+      "intentStareep": 0,
+      "intentSampleRoom": 1,
+      "intentCustomers": 1,
+      "dualCategoryIntent": 0,
+      "sameDaySales": 0,
+      "followupCustomers": 0,
+      "sofaA": 0,
+      "sofaB": 1,
+      "sofaC": 0,
+      "sofaD": 0,
+      "mattressA": 0,
+      "mattressB": 0,
+      "mattressC": 0,
+      "mattressD": 0,
+      "sofaZolanoA": 0,
+      "sofaZolanoB": 0,
+      "sofaZolanoC": 0,
+      "sofaZolanoD": 0,
+      "sofaNikatorA": 0,
+      "sofaNikatorB": 0,
+      "sofaNikatorC": 0,
+      "sofaNikatorD": 0,
+      "mattressZolanoA": 0,
+      "mattressZolanoB": 0,
+      "mattressZolanoC": 0,
+      "mattressZolanoD": 0,
+      "mattressStareepA": 0,
+      "mattressStareepB": 0,
+      "mattressStareepC": 0,
+      "mattressStareepD": 0,
+      "messageTime": "2026-08-21 12:11:04",
+      "eventIds": [
+        "1787285464-qingqing-zolano-sample-b"
+      ],
+      "confirmedEventIds": [],
+      "eventFingerprints": {},
+      "eventDualCategoryIntent": 0
     }
   ],
   "scanWindowDays": 3,
   "dedupeKey": "date+staff",
   "scanStatus": {
-    "windowStart": "2026-08-18",
-    "windowEnd": "2026-08-20",
-    "checkedAt": "2026-08-20T12:01:16Z",
+    "windowStart": "2026-08-16",
+    "windowEnd": "2026-08-21",
+    "checkedAt": "2026-08-21T11:06:18Z",
     "dedupeKey": "date+staff",
     "added": [],
     "updated": [],
@@ -3290,19 +3338,29 @@
     "aiReview": {
       "enabled": true,
       "passed": true,
-      "messageCount": 3,
-      "businessEventCount": 3,
-      "overallConfidence": 0.98,
+      "messageCount": 1,
+      "businessEventCount": 1,
+      "overallConfidence": 0.95,
       "warnings": [],
       "secondPass": {
         "enabled": true,
         "passed": true,
-        "confidence": 0.98,
-        "messagesChecked": 3,
+        "confidence": 0.95,
+        "messagesChecked": 1,
         "issues": [],
         "warnings": [],
-        "summary": "Zolano进1组，两遍一致；希瑞进1组，两遍一致；清样间进1组，两遍一致"
+        "summary": "8/21 晴晴 zolano进一组，清样意向为B。两遍一致：Zolano进店1，清样意向B，无作废。"
       }
+    },
+    "audit": {
+      "passed": true,
+      "recordsChecked": 1,
+      "checkedRecords": [
+        "2026-08-21+晴晴"
+      ],
+      "cancellationCommandsRecognized": 0,
+      "eventsRemovedByCancellation": [],
+      "mismatches": []
     }
   },
   "staffSince": {
